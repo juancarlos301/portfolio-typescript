@@ -1,6 +1,10 @@
 import styled from "@emotion/styled";
 
 export const ContainerMarginHome = styled.div`
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
   div.margin-container {
     width: 100%;
     height: 100vh;
@@ -13,13 +17,13 @@ export const ContainerMarginHome = styled.div`
       width: 100%;
       svg defs linearGradient {
         & stop:nth-child(1) {
-          stop-color: rgb(74, 57, 143);
+          stop-color: #4e184a;
         }
         & stop:nth-child(2) {
-          stop-color: rgb(120, 152, 119);
+          stop-color: #fff;
         }
         & stop:nth-child(3) {
-          stop-color: rgb(74, 57, 143);
+          stop-color: #4e184a;
         }
       }
     }
@@ -31,13 +35,13 @@ export const ContainerMarginHome = styled.div`
   }
   .margin-container.content-hovered div svg defs linearGradient {
     stop:nth-child(1) {
-      stop-color: rgb(120, 152, 119);
+      stop-color: #fff;
     }
     stop:nth-child(2) {
-      stop-color: rgb(74, 57, 143);
+      stop-color: #4e184a;
     }
     stop:nth-child(3) {
-      stop-color: rgb(120, 152, 119);
+      stop-color: #fff;
     }
   }
 `;

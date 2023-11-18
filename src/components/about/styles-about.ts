@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const AboutContainer = styled.div`
   width: 80%;
+  margin-top: 15px;
   h2 {
     margin-top: 0;
     color: #b3b3b1;

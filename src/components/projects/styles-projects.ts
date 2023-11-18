@@ -1,32 +1,36 @@
 import styled from "@emotion/styled";
 
-export const ContainerExperience = styled.div`
+export const ContainerProjects = styled.div`
   width: 80%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   h2 {
     margin-top: 0;
     color: #b3b3b1;
   }
-  div.experience-item {
+  div.project-item {
     width: 100%;
     border-radius: 8px;
-    border: 2px solid #c9c9c9;
+    border: 1px solid #c9c9c9;
     box-sizing: border-box;
     padding: 15px;
     display: flex;
     gap: 15px;
-    div.date {
-      width: 20%;
+    div.img-container {
+      width: 40%;
       height: 100%;
-      color: #c9c9c991;
-      font-size: 12px;
-      font-weight: 600;
-      text-align: center;
+      img {
+        width: 100%;
+        height: 120px;
+      }
     }
   }
 `;
 
 export const Content = styled.div`
-  width: 80%;
+  width: 60%;
   p {
     color: rgb(148, 163, 184);
     font-size: 14px;
