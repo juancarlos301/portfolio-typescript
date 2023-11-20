@@ -31,6 +31,7 @@ export const ContainerProjects = styled.div`
     div.project-item {
       flex-direction: column;
       align-items: center;
+      padding: 5px;
       div.img-container {
         width: 80%;
       }
@@ -53,6 +54,16 @@ export const Content = styled.div`
     color: #b3b3b1;
     margin-top: 0;
   }
+  @media (max-width: 768px) {
+    width: 80%;
+    h3,
+    p {
+      text-align: center;
+    }
+    div {
+      justify-content: center;
+    }
+  }
 `;
 
 export const ChipComponent = styled.div`
@@ -62,4 +73,7 @@ export const ChipComponent = styled.div`
   font-size: 14px;
   color: #000;
   background-color: #a05b94;
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 `;

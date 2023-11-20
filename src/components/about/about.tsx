@@ -5,16 +5,20 @@ export const About = () => {
     <AboutContainer>
       <h2>ABOUT</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        autem aliquam debitis. Voluptates culpa pariatur provident neque,
-        eveniet, possimus incidunt in enim alias exercitationem optio mollitia
-        labore at maxime earum?
+        Full-Stack With +1 year of experience, I specialize in frontend
+        development, showcasing robust skills in conflict resolution, teamwork,
+        and adaptability. My ability to rapidly learn new technologies and
+        tackle challenges with creativity defines my approach. Committed to
+        technical excellence, I focus on delivering innovative solutions.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem
-        autem aliquam debitis. Voluptates culpa pariatur provident neque,
-        eveniet, possimus incidunt in enim alias exercitationem optio mollitia
-        labore at maxime earum?
+        As a Full-Stack Developer, my commitment to technical excellence is
+        complemented by a dedication to innovative problem-solving. I navigate
+        conflict resolution, collaborate effectively, and adapt to evolving
+        project needs. This proactive approach, combined with a passion for
+        self-directed learning, ensures not only quick adaptation to emerging
+        technologies but a continuous exploration of creative ways for problem
+        resolution.
       </p>
     </AboutContainer>
   );
