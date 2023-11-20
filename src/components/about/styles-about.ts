@@ -14,4 +14,7 @@ export const AboutContainer = styled.div`
     line-height: 26px;
     font-weight: 400;
   }
+  @media (max-width: 425px) {
+    width: 100%;
+  }
 `;

@@ -27,6 +27,19 @@ export const ContainerProjects = styled.div`
       }
     }
   }
+  @media (max-width: 768px) {
+    div.project-item {
+      flex-direction: column;
+      align-items: center;
+      div.img-container {
+        width: 80%;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    width: 100%;
+  }
 `;
 
 export const Content = styled.div`

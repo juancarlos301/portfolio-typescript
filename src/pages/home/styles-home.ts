@@ -11,6 +11,9 @@ export const HomeContainer = styled.div`
     justify-content: center;
     align-items: center;
     z-index: 2;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
   }
 `;
 
@@ -68,6 +71,34 @@ export const PersonalContent = styled.div`
     font-weight: 400;
     margin-top: 0;
   }
+
+  @media (max-width: 1024px) {
+    div.personal {
+      padding-top: 100px;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    div.personal {
+      padding-top: 0;
+      position: relative;
+      width: 100%;
+      margin-left: 0;
+      justify-content: center;
+    }
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+    h2 {
+      font-size: 1.4rem;
+      text-align: center;
+    }
+  }
 `;
 
 export const ChangeContentContent = styled.div`
@@ -81,4 +112,10 @@ export const ChangeContentContent = styled.div`
   padding-bottom: 40px;
   box-sizing: border-box;
   gap: 70px;
+  @media (max-width: 1024px) {
+    padding-top: 100px;
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;

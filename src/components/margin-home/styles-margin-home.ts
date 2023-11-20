@@ -25,6 +25,10 @@ export const ContainerMarginHome = styled.div`
         & stop:nth-child(3) {
           stop-color: #4e184a;
         }
+
+        stop {
+          transition: all 0.3s ease-in-out;
+        }
       }
     }
     & div:nth-child(2) {
@@ -42,6 +46,18 @@ export const ContainerMarginHome = styled.div`
     }
     stop:nth-child(3) {
       stop-color: #fff;
+    }
+  }
+
+  @media (max-width: 768px) {
+    position: absolute;
+    div.margin-container {
+      padding: 0 20px;
+    }
+  }
+  @media (max-width: 425px) {
+    div.margin-container {
+      padding: 0;
     }
   }
 `;
