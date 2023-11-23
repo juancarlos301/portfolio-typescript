@@ -1,0 +1,114 @@
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1d1d20;
+    flex-direction: column;
+}
+
+#loader .content {
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loader .content h1 {
+    animation: rotate 1s linear infinite;
+    margin: 40px 0;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+         25% {
+             transform: rotate(-10deg);
+         }
+           50% {
+               transform: rotate(-10deg);
+           }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@media (max-width: 768px) {
+    #loader .content img {
+        width: 180px;
+    }
+
+    #loader .content h2 {
+        font-size: 20px;
+    }
+}
+
+#title {
+    color: #244c5b;
+    display: block;
+    font: bold 30px Arial;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+#title span:nth-of-type(1) {
+    animation: blackblur 1s 0s 1 alternate;
+}
+
+#title span:nth-of-type(2) {
+    animation: blackblur 1s 0.15s 1 alternate;
+}
+
+#title span:nth-of-type(3) {
+    animation: blackblur 1s 0.30s 1 alternate;
+}
+
+#title span:nth-of-type(4) {
+    animation: blackblur 1s 0.45s 1 alternate;
+}
+
+#title span:nth-of-type(5) {
+    animation: blackblur 1s 0.60s 1 alternate;
+}
+
+#title span:nth-of-type(6) {
+    animation: blackblur 1s 0.75s 1 alternate;
+}
+
+#title span:nth-of-type(7) {
+    animation: blackblur 1s 0.90s 1 alternate;
+}
+
+#title span:nth-of-type(8) {
+    animation: blackblur 1s 1.05s 1 alternate;
+}
+
+#title span:nth-of-type(9) {
+    animation: blackblur 1s 1.20s 1 alternate;
+}
+
+#title span:nth-of-type(10) {
+    animation: blackblur 1s 1.35s 1 alternate;
+}
+
+@keyframes blackblur {
+    from {
+        text-shadow: 0 0 72px #244c5b;
+        color: transparent;
+    }
+
+    to {
+        text-shadow: 0;
+        color: #a05b94;
+    }
+}

@@ -3,11 +3,34 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+            <div id="loader" class="show">
+              <div class="content">
+                <h1>JUAN CARLOS VALENCIA</h1>
+                <h2 id="title">
+                </h2>
+                <script>
+
+                  const text = 'Full Stack';
+
+                  const h2Element = document.getElementById('title');
+
+                  const characters = text.split('');
+
+                  characters.forEach(caracter => {
+                    const spanElement = document.createElement('span');
+                    spanElement.textContent = caracter;
+                    h2Element.appendChild(spanElement);
+                  });
+                </script>
+              </div>
+            </div>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -5,11 +5,11 @@ export const About = () => {
     <AboutContainer>
       <h2>ABOUT</h2>
       <p>
-        Full-Stack With +1 year of experience, I specialize in frontend
-        development, showcasing robust skills in conflict resolution, teamwork,
-        and adaptability. My ability to rapidly learn new technologies and
-        tackle challenges with creativity defines my approach. Committed to
-        technical excellence, I focus on delivering innovative solutions.
+        Full-Stack With +2 year of experience, I specialize in frontend
+        development, with robust skills in conflict resolution, teamwork, and
+        adaptability. My ability to rapidly learn new technologies and tackle
+        challenges with creativity defines my approach. Committed to technical
+        excellence, I focus on delivering innovative solutions.
       </p>
       <p>
         As a Full-Stack Developer, my commitment to technical excellence is

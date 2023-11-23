@@ -1,8 +1,7 @@
-import { useState } from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { SiGmail } from "react-icons/si";
 
-import { MarginHome, About, Experience, Projects } from "../../components";
+import { About, Experience, Projects, Languages } from "../../components";
 import myPicture from "../../assets/mypicture.jpeg";
 import {
   HomeContainer,
@@ -10,15 +9,9 @@ import {
   ChangeContentContent,
 } from "./styles-home";
 export const Home = () => {
-  const [isHovered, setHovered] = useState(false);
   return (
     <HomeContainer>
-      <MarginHome isHovered={isHovered} />
-      <div
-        className="container-content"
-        onMouseEnter={() => setHovered(true)}
-        onMouseLeave={() => setHovered(false)}
-      >
+      <div className="container-content">
         <PersonalContent>
           <div className="personal">
             <h1>Juan Carlos Valencia</h1>
@@ -52,6 +45,7 @@ export const Home = () => {
         <ChangeContentContent>
           <About />
           <Experience />
+          <Languages />
           <Projects />
         </ChangeContentContent>
       </div>
