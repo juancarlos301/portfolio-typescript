@@ -22,6 +22,7 @@ export const ContainerProjects = styled.div`
       width: 40%;
       height: 100%;
       img {
+        border-radius: 8px;
         width: 100%;
         height: 120px;
       }
