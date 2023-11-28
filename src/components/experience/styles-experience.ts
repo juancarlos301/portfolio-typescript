@@ -14,6 +14,7 @@ export const ContainerExperience = styled.div`
     padding: 15px;
     display: flex;
     gap: 15px;
+    margin: 20px 0;
     div.date {
       width: 20%;
       height: 100%;
