@@ -5,7 +5,7 @@ export const ContainerProjects = styled.div`
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 20px 20px;
   h2 {
     margin-top: 0;
     color: #b3b3b1;
