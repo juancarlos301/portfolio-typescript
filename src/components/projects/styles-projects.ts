@@ -17,14 +17,17 @@ export const ContainerProjects = styled.div`
     box-sizing: border-box;
     padding: 15px;
     display: flex;
+    align-items: stretch;
     gap: 15px;
     div.img-container {
       width: 40%;
-      height: 100%;
+      align-self: stretch;
+      display: flex;
       img {
         border-radius: 8px;
         width: 100%;
-        height: 120px;
+        height: 100%;
+        object-fit: cover;
       }
     }
   }

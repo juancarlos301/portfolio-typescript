@@ -63,7 +63,7 @@ export const PersonalContent = styled.div`
     font-weight: 600;
     font-size: 3.5rem;
     text-align: center;
-    margin: 0 30px 30px;
+    margin: 0 30px 70px;
   }
 
   h2 {

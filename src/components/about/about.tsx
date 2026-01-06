@@ -5,11 +5,11 @@ export const About = () => {
     <AboutContainer>
       <h2>ABOUT</h2>
       <p>
-        Throughout my 2 and a half years as a Full-Stack Developer, I have
+        Throughout my 4 years as Full-Stack Developer, I have
         significantly contributed to challenging projects that enhanced my
         technical skills. My focus is on creating intuitive and engaging
-        interfaces, applying solid frontend development practices. Tackling
-        complex challenges has allowed me to demonstrate my ability to
+        interfaces, applying solid frontend development practices and also 
+        high-performance backend solutions. Tackling complex challenges has allowed me to demonstrate my ability to
         efficiently solve problems, maintaining a constant commitment to quality
         and customer satisfaction.
       </p>
